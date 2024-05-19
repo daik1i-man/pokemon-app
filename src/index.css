@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    @apply m-0 p-0 box-border justify-center items-center
+}
+
+body {
+    @apply bg-[#333] text-white w-full h-full overflow-x-hidden
+}
